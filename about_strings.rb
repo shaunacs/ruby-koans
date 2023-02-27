@@ -40,7 +40,8 @@ class AboutStrings < Neo::Koan
 It was the best of times,
 It was the worst of times.
 }
-    assert_equal __, long_string.length
+
+    assert_equal 54, long_string.length
     assert_equal __, long_string.lines.count
     assert_equal __, long_string[0,1]
   end
